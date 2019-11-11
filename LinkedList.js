@@ -115,6 +115,10 @@ class LinkedList {
     return currentNode.data;
   }
 
+  isEmpty(){
+    return this.listLength == 0;
+  }
+
   listToArray() {
     let current = this.head;
     let array = [];
@@ -140,3 +144,4 @@ console.log(linkedList.elementAtIndex(3));
 console.log(linkedList.findIndexOfElement(13));
 console.log(linkedList.listToArray());
 console.log(linkedList.getListLength());
+console.log(linkedList.isEmpty());

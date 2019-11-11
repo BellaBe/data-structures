@@ -1,6 +1,6 @@
 This is an implementation of data structures in Javascript(ES6)
 
-Linked list supports 
+Linked list supports:
 -getListLength()
 -addFirst()
 -addLast()
@@ -10,3 +10,13 @@ Linked list supports
 -findIndexOfElement()
 -elementAtIndex()
 -listToArray()
+-isEmpty()
+
+Stack supports:
+-push()
+-pop()
+-getStackLength()
+-getLast()
+-printStack()
+-isEmpty()
+
