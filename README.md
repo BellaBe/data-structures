@@ -1,1 +1,12 @@
-This is an implementation of a linked list in Javascript(ES6)
+This is an implementation of data structures in Javascript(ES6)
+
+Linked list supports 
+-getListLength()
+-addFirst()
+-addLast()
+-removeFirst()
+-removeLast()
+-insertAt()
+-findIndexOfElement()
+-elementAtIndex()
+-listToArray()
